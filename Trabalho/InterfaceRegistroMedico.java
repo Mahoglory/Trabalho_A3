@@ -53,6 +53,7 @@ public class InterfaceRegistroMedico extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
+
                 new InterfaceRegistroMedico();
             }
         });
